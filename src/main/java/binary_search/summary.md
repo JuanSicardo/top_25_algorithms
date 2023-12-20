@@ -18,8 +18,11 @@ The algorithms steps are:
 Complexity
 ----------
 
-* Time complexity: O(n)
-* Space complexity: O(1)
+If:
+* `n` is the number of elements in the array
+
+* Time complexity: `O(log(n))`
+* Space complexity: `O(1)`
 
 Drawbacks
 ---------
