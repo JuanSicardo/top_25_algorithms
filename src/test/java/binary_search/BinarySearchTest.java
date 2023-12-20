@@ -104,7 +104,7 @@ class BinarySearchTest {
 
 
     @Test
-    void shouldReturnIndexIfFondAtTheStart() {
+    void shouldReturnIndexIfFoundAtTheStart() {
         var binarySearch = new BinarySearch();
 
         //Inputs
