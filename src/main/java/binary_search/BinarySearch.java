@@ -17,12 +17,12 @@ public class BinarySearch {
          *
          * If you exhausted the search space then return -1 to indicate you couldn't find the target.
          */
-        while(end >= start) {
-            var pivot = start + (end - start)/2;
+        while (end >= start) {
+            var pivot = start + (end - start) / 2;
 
-            if(array[pivot] < target)
+            if (array[pivot] < target)
                 start = pivot + 1;
-            else if(array[pivot] > target)
+            else if (array[pivot] > target)
                 end = pivot - 1;
             else
                 return pivot;

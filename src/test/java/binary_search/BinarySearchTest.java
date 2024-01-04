@@ -12,7 +12,7 @@ class BinarySearchTest {
         var binarySearch = new BinarySearch();
 
         //Inputs
-        var array = new int[] {};
+        var array = new int[]{};
         var target = 1;
 
         //Results
@@ -28,7 +28,7 @@ class BinarySearchTest {
         var binarySearch = new BinarySearch();
 
         //Inputs
-        var array = new int[] {0};
+        var array = new int[]{0};
         var target = 1;
 
         //Results
@@ -44,7 +44,7 @@ class BinarySearchTest {
         var binarySearch = new BinarySearch();
 
         //Inputs
-        var array = new int[] { -10, -5, -1, 0, 8, 10, 12, 14, 16 };
+        var array = new int[]{-10, -5, -1, 0, 8, 10, 12, 14, 16};
         var target = 9;
 
         //Results
@@ -60,7 +60,7 @@ class BinarySearchTest {
         var binarySearch = new BinarySearch();
 
         //Inputs
-        var array = new int[] { -20, -12, -2, 0, 3, 7, 10, 14, 16, 18 };
+        var array = new int[]{-20, -12, -2, 0, 3, 7, 10, 14, 16, 18};
         var target = 1;
 
         //Results
@@ -76,7 +76,7 @@ class BinarySearchTest {
         var binarySearch = new BinarySearch();
 
         //Inputs
-        var array = new int[] {10};
+        var array = new int[]{10};
         var target = 10;
 
         //Results
@@ -92,7 +92,7 @@ class BinarySearchTest {
         var binarySearch = new BinarySearch();
 
         //Inputs
-        var array = new int[] {-15, -3, 5, 8, 10, 60, 120};
+        var array = new int[]{-15, -3, 5, 8, 10, 60, 120};
         var target = 8;
 
         //Results
@@ -108,7 +108,7 @@ class BinarySearchTest {
         var binarySearch = new BinarySearch();
 
         //Inputs
-        var array = new int[] {3, 4, 6, 7, 10};
+        var array = new int[]{3, 4, 6, 7, 10};
         var target = 3;
 
         //Results
@@ -124,7 +124,7 @@ class BinarySearchTest {
         var binarySearch = new BinarySearch();
 
         //Inputs
-        var array = new int[] {-10, -2, -1, 0, 3};
+        var array = new int[]{-10, -2, -1, 0, 3};
         var target = 3;
 
         //Results
