@@ -13,7 +13,6 @@ public class GraphNode {
 
     @Getter
     @Setter
-    @NonNull
     private int value;
 
     @NonNull
