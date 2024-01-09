@@ -10,7 +10,7 @@ class BinarySearchTest {
     @Test
     void shouldReturnMinusOneIfArrayIsEmpty() {
         //Inputs
-        var array = new int[]{};
+        int[] array = new int[]{};
         int target = 1;
 
         //Results
@@ -24,7 +24,7 @@ class BinarySearchTest {
     @Test
     void shouldReturnMinusOneIfNotFoundInArrayWithOneElement() {
         //Inputs
-        var array = new int[]{0};
+        int[] array = new int[]{0};
         int target = 1;
 
         //Results
@@ -38,7 +38,7 @@ class BinarySearchTest {
     @Test
     void shouldReturnMinusOneIfNotFoundInOddArray() {
         //Inputs
-        var array = new int[]{-10, -5, -1, 0, 8, 10, 12, 14, 16};
+        int[] array = new int[]{-10, -5, -1, 0, 8, 10, 12, 14, 16};
         int target = 9;
 
         //Results
@@ -52,7 +52,7 @@ class BinarySearchTest {
     @Test
     void shouldReturnMinusOneIfNotFoundInEvenArray() {
         //Inputs
-        var array = new int[]{-20, -12, -2, 0, 3, 7, 10, 14, 16, 18};
+        int[] array = new int[]{-20, -12, -2, 0, 3, 7, 10, 14, 16, 18};
         int target = 1;
 
         //Results
@@ -66,7 +66,7 @@ class BinarySearchTest {
     @Test
     void shouldReturnIndexIfFoundInArrayWithOneElement() {
         //Inputs
-        var array = new int[]{10};
+        int[] array = new int[]{10};
         int target = 10;
 
         //Results
@@ -80,7 +80,7 @@ class BinarySearchTest {
     @Test
     void shouldReturnIndexIfFoundInTheMiddle() {
         //Inputs
-        var array = new int[]{-15, -3, 5, 8, 10, 60, 120};
+        int[] array = new int[]{-15, -3, 5, 8, 10, 60, 120};
         int target = 8;
 
         //Results
@@ -94,7 +94,7 @@ class BinarySearchTest {
     @Test
     void shouldReturnIndexIfFoundAtTheStart() {
         //Inputs
-        var array = new int[]{3, 4, 6, 7, 10};
+        int[] array = new int[]{3, 4, 6, 7, 10};
         int target = 3;
 
         //Results
@@ -108,7 +108,7 @@ class BinarySearchTest {
     @Test
     void shouldReturnIndexIfFoundAtTheEnd() {
         //Inputs
-        var array = new int[]{-10, -2, -1, 0, 3};
+        int[] array = new int[]{-10, -2, -1, 0, 3};
         int target = 3;
 
         //Results
