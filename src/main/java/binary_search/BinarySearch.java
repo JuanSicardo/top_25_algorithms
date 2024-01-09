@@ -7,7 +7,7 @@ public class BinarySearch {
      *
      * The array should be ordered in non-decreasing order
      */
-    public int search(int[] array, int target) {
+    public static int search(int[] array, int target) {
         int start = 0; // The index of the first element in the search space
         int end = array.length - 1; // The index of the last element in the search space
 
