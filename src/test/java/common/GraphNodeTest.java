@@ -162,7 +162,7 @@ class GraphNodeTest {
             add(new GraphNode(635));
             add(new GraphNode(0));
         }};
-        List<GraphNode> neighbors = new ArrayList<GraphNode>() {{
+        List<GraphNode> neighbors = new ArrayList<>() {{
             add(neighborToRemove);
             addAll(otherNeighbors);
         }};
@@ -177,7 +177,7 @@ class GraphNodeTest {
 
     @Test
     void shouldCreateGraphNodeWithNeighborsAndRemoveAll() {
-        List<GraphNode> neighbors = new ArrayList<GraphNode>() {{
+        List<GraphNode> neighbors = new ArrayList<>() {{
             add(new GraphNode(635));
             add(new GraphNode(0));
             add(new GraphNode(654654));

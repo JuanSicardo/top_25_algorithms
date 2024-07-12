@@ -10,8 +10,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class BreadthFirstSearchTest {
 
     @Test
-    void shouldThrowNullPointerExceptionIfRootIsNull() {
-        assertThrows(NullPointerException.class, () -> BreadthFirstSearch.breadthFirstSearch(null, 156));
+    void shouldThrowIllegalArgumentExceptionIfRootIsNull() {
+        assertThrows(IllegalArgumentException.class, () -> BreadthFirstSearch.breadthFirstSearch(null, 156));
     }
 
     @Test
